@@ -1,0 +1,22 @@
+2022-04-06 22:31:03,810 - logtest.log - INFO - test:0
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:1
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:2
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:3
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:4
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:5
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:6
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:7
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:8
+2022-04-06 22:31:03,811 - logtest.log - INFO - test:9
+2022-04-06 22:31:03,818 - logtest.log - INFO - {'train_bs': 64, 'valid_bs': 64, 'workers': 0, 'lr_init': 0.01, 'momentum': 0.9, 'weight_decay': 0.0001, 'factor': 0.1, 'milestones': [30, 45], 'max_epoch': 50, 'log_interval': 10, 'transforms_train': Compose(
+    Resize(size=256, interpolation=bilinear, max_size=None, antialias=None)
+    CenterCrop(size=(256, 256))
+    RandomCrop(size=(224, 224), padding=None)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+), 'transforms_valid': Compose(
+    Resize(size=(224, 224), interpolation=bilinear, max_size=None, antialias=None)
+    ToTensor()
+    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+)}
